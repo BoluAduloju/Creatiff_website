@@ -66,10 +66,9 @@ header{
 }
 main {
     margin: 0 4rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap:wrap;
     justify-content: center;
-    gap: 0;
     align-items : center;
     margin: 40px;
 }
@@ -113,7 +112,7 @@ footer{
     background:rgba(1, 0, 14, 0.459);
 }
 footer .logo-container {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family:"Open Sans", sans-serif;
     margin-bottom: 26px;
 }
