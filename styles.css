@@ -5,7 +5,7 @@
 :root{
     --main-font: "Playfair Display", serif;
     --primary-font: "Roboto",sans-serif;
-    --main-color: #27f343;
+    --main-color: #018012b0;
 }
 
 /* Resets */
@@ -29,6 +29,7 @@ nav {
 .logo {
     margin-left: 5rem;
     font-size: 20px;
+    color: var(--main-color);
 }
 .burger{
     display: flex;
@@ -98,7 +99,7 @@ header{
 }
 .img-container{
     border-radius: 10px;
-    box-shadow: 2px 2px 0px 5px #bcbaba;
+    box-shadow: 4px 2px 0px 5px #000;
 }
 .header-img{
     border-radius: 10px;
@@ -107,5 +108,17 @@ header{
     background-size: cover;
     width: 400px;
     height: 500px;
+}
+.section-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    margin-top:7rem;
+}
+.section-one-img{
+    background: url(./images/section-img.png);
+    background-position: bottom;
+
 }
 
